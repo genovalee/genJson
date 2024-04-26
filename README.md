@@ -1,5 +1,5 @@
 # 產生Json String
-<pre>
+```java
     public JsonObject toJson() {
         JsonObjectBuilder value =
             Json.createObjectBuilder().add("firstName", "John")
@@ -19,9 +19,9 @@
                                                              .add("number", "646 555-4567")));
         return value.build();
     }
-</pre>
+```
 ## result JsonObject
-<pre>
+```json
 {
     "firstName": "John",
     "lastName": "Smith",
@@ -43,4 +43,4 @@
         }
     ]
 }
-</pre>
+```
